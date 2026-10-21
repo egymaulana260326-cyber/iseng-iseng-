@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan HTML: Hirarki Memori</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; color: #333; }
+        h1, h2 { color: #1a5276; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+        th { background-color: #624fa7; color: white; }
+        tr:nth-child(even) { background-color: #f2f2f296; }
+        .highlight { font-weight: bold; color: #0f3555; }
+    </style>
+</head>
+<body>
+
+    <h1>Hirarki Memori Komputer</h1>
+    <p>Hirarki memori mengurutkan penyimpanan berdasarkan <strong>kecepatan, kapasitas, dan biaya</strong>.</p>
+
+    
+<h2>Komponen utama</h2>
+<ul>
+    <li><strong><a href="https://id.wikipedia.org/wiki/Register_prosesor" target="_blank" rel="noopener noreferrer">Register</a>:</strong> Memori internal CPU terkecil dan tercepat.</li>
+    <li><strong><a href="https://id.wikipedia.org/wiki/Cache_CPU" target="_blank" rel="noopener noreferrer">Cache</a>:</strong> Memori penjembatan antara CPU dan RAM (L1, L2, L3).</li>
+    <li><strong><a href="https://id.wikipedia.org/wiki/Memori_akses_acak" target="_blank" rel="noopener noreferrer">RAM</a> (Random Access Memory):</strong> Memori utama bersifat <em>volatile</em>.</li>
+    <li><strong><a href="https://id.wikipedia.org/wiki/Memori_hanya_baca" target="_blank" rel="noopener noreferrer">ROM</a> (Read Only Memory):</strong> Penyimpanan instruksi awal (BIOS/UEFI) bersifat <em>non-volatile</em>.</li>
+    <li><strong><a href="https://id.wikipedia.org/wiki/Special:Search?search=Solid-state+drive" target="_blank" rel="noopener noreferrer">SSD</a> (Solid State Drive):</strong> Penyimpanan permanen berbasis flash, lebih cepat dan tanpa bagian bergerak. Bersifat <em>non-volatile</em>.</li>
+    <li><strong><a href="https://id.wikipedia.org/wiki/Special:Search?search=Hard+disk+drive" target="_blank" rel="noopener noreferrer">HDD</a> (Hard Disk Drive):</strong> Penyimpanan permanen berbasis piringan magnetik, lebih murah per GB. Bersifat <em>non-volatile</em>.</li>
+    </ul>
+
+    <h2>Tabel Perbandingan</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Jenis Memori</th>
+                <th>Kecepatan</th>
+                <th>Kapasitas</th>
+                <th>Sifat Penyimpanan</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Register</td>
+                <td>Sangat Cepat</td>
+                <td>Sangat Kecil (Bytes)</td>
+                <td>Volatile</td>
+
+            </tr>
+            <tr>
+                <td>Cache</td>
+                <td>Cepat</td>
+                <td>Kecil (MB)</td>
+                <td>Volatile</td>
+            </tr>
+            <tr>
+                <td>RAM</td>
+                <td>Sedang</td>
+                <td>Sedang (GB)</td>
+                <td>Volatile</td>
+            </tr>
+            <tr>
+                <td>ROM</td>
+                <td>Lambat</td>
+                <td>Kecil (MB)</td>
+                <td><span class="highlight">Non-Volatile</span></td>
+            </tr>
+           <tr>
+                 <td>SSD</td>
+                 <td>Lambat (lebih cepat dari HDD)</td>
+                <td>Besar (GB/TB)</td>
+                <td><span class="highlight">Non-Volatile</span></td>
+            </tr>
+            <tr>
+             <td>HDD</td>
+            <td>Paling Lambat</td>
+            <td>Sangat Besar (TB)</td>
+            <td><span class="highlight">Non-Volatile</span></td>
+</tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
